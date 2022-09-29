@@ -112,12 +112,8 @@ De <i>l’schema</i> associat a la resposta especifica, el servei informa les da
 
 #### 3.1.2.1	Codis de resultat <a name="3.1.2.1"></a>
 
-•	0003: Tramitada. Titular localitzat.
-•	0231: Error reportat per l’emissor. Error de format documentació.
-•	0232: Error reportat per l’emissor. Existeix més d’un registre per les dades proporcionades en la consulta.
-•	0233: El titular de la consulta no existeix a la BBDD de l’INEM.
-•	0238: No hi ha dades del titular consultat. El titular està enregistrat a la BBDD de l’INEM, però per la consulta efectuada no existeixen dades al moment de la consulta i, per tant, no és sol·licitant de la prestació consultada.
-•	0502: Error en la comunicació amb l’emissor.
+•	0003: Tramitada. Titular localitzat.<br>•	0231: Error reportat per l’emissor. Error de format documentació.
+•	0232: Error reportat per l’emissor. Existeix més d’un registre per les dades proporcionades en la consulta.<br>•	0233: El titular de la consulta no existeix a la BBDD de l’INEM.<br>•	0238: No hi ha dades del titular consultat. El titular està enregistrat a la BBDD de l’INEM, però per la consulta efectuada no existeixen dades al moment de la consulta i, per tant, no és sol·licitant de la prestació consultada.<br>•	0502: Error en la comunicació amb l’emissor.
 
 ## 3.2	Verificació d’imports actuals (VERIF_IMPORTS_ACTUALS) <a name="3.2"></a>
 
@@ -193,8 +189,7 @@ De <i>l’schema</i> associat a la resposta especifica, el servei informa les da
 | //DatosImportePeriodo/FXFINAL | 	Data de fi del període (format MM/AAAA). |
 | //DatosImportePeriodo/IMPBRUTO | 	Quantia de l'import brut (format Z.ZZZ.ZZZ,ZZ). |
 | //DatosImportePeriodo/IMPREASS | 	Import de la quota fixa del REASS - Régimen Especial Agrario de la Seguridad Social (format Z.ZZZ.ZZZ,ZZ). |
-| //DatosImportePeriodo/IMPIRPF | 	Import de la retenció a efectes de l'I.R.P.F (format
-±ZZZ.ZZZ,ZZ). |
+| //DatosImportePeriodo/IMPIRPF | 	Import de la retenció a efectes de l'I.R.P.F (format ±ZZZ.ZZZ,ZZ). |
 | //DatosImportePeriodo/IMPSEGSOC | 	Import descompte de la Seguretat Social (±ZZZ.ZZZ,ZZ). |
 | //resultat/codiResultat | Codi de resultat de l’operació de consulta (vegeu apartat 0). |
 | //resultat/descripcio | 	Descripció del resultat. |
